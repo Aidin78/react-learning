@@ -30,7 +30,7 @@ function App() {
 
   useEffect(() => {
     generatePassword();
-  }, [generatePassword])
+  }, [length, numberAllowed, charAllowed])
 
   return (
     <>
